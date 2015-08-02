@@ -1,0 +1,116 @@
+p {
+   position:relative;
+    left:100px;
+}
+span.romannumber{
+    color:orange;
+}
+p[title="head"]{
+    color: green;
+    display: block;
+  font-size:120%;
+  position:relative;
+  left:200px;
+  font-weight:bold;
+}
+span.foreign-la{
+    color: gray;
+   font-size:100%;
+   left:200px;
+}
+span.verseline {
+   position:absolute;
+    left:400px;
+}
+span.linenumnewline {
+   position:absolute;
+    left:-50px;
+}
+span.moveleft {
+   position:absolute;
+    left:-80px;
+}
+span.del {
+    text-decoration:line-through;
+    color:red
+}
+span.ex{
+    font-style:italic;
+}
+span.fwheader{
+  padding-top: 30px;
+  color: maroon;
+  display: block;
+  font-size:80%;
+  position:relative;
+  left:200px;
+}
+span.subst {
+    border:thin solid green;
+}
+span.restore{
+    border:thin solid green;
+}
+div.text {
+    margin:20px;
+    padding:20px;
+    /*border: medium dotted black;*/
+}
+span.linenum {
+    position:absolute;
+   left:-60px;
+}
+span.note {
+    text-decoration:none;
+    color:maroon;
+   position:absolute;
+    left:500px;
+}
+span.underline {
+  display: inline;
+  text-decoration: underline;
+}
+span.ul {
+  display: inline;
+  text-decoration: underline;
+}
+span.ulr {
+  display: inline;
+  border-bottom:thin solid red;
+}
+span.rubric {
+  display: inline;
+  color:red;
+}
+span.capitalsize1 {
+  font-size:100%;
+  font-weight:bold;
+}
+span.capitalsize2 {
+  font-size:130%;
+}
+span.capitalsize3 {
+  font-size:160%;
+}
+span.capitalsize4 {
+  font-size:190%;
+}
+span.capitalsize5 {
+  font-size:220%;
+}
+span.capitalsize6 {
+  font-size:250%;
+}
+span.capitalsize7 {
+  font-size:270%;
+}
+span.capitalsize8 {
+  font-size:300%;
+}
+span.junicode {
+    font-family:junicode, sans-serif;
+}
+span.add {
+    text-decoration:underline;
+    color:green;
+}
