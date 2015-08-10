@@ -1,19 +1,52 @@
 ﻿<?xml version="1.1" encoding="UTF-8"?>
 
 <MVN xmlns="http://www.tei-c.org/ns/1.0">
+
 <teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Vierde Martijn</title>
-</titleStmt>
-<publicationStmt>
-<p>Published as an example for the Introduction module of TBE.</p>
-</publicationStmt>
-<sourceDesc>
-<p>No source: born digital.</p>
-</sourceDesc>
-</fileDesc>
+ <fileDesc>
+  <titleStmt>
+   <title>
+    Vierde Martijn
+   </title>
+   <author>
+    <!--Onbekend-->
+   </author>
+  </titleStmt>
+  <publicationStmt>
+   <p>
+<!-- Gegevens over uitgave -->
+   </p>
+  </publicationStmt>
+  <sourceDesc>
+   <p>
+<!-- Beknopte beschrijving van het handschrift -->
+   </p>
+  </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+  <xi:include href="http://www.huygensinstituut.knaw.nl/projecten/mvn/webfiles/charDecl.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <xi:fallback>
+    <xi:include href="charDecl.xml"/>
+   </xi:fallback>
+  </xi:include>
+  <editorialDecl>
+   <p>
+<!-- Verantwoording van de editie -->
+   </p>
+  </editorialDecl>
+ </encodingDesc>
+ <profileDesc>
+  <handNotes>
+   <handNote xml:id="h1">
+    <p>
+<!-- Opmerkingen over de tekst- en kopiistenhanden -->
+    </p>
+   </handNote>
+  </handNotes>
+ </profileDesc>
 </teiHeader>
+
+
 
 <text>
 <group>
