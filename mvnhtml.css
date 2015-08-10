@@ -22,10 +22,16 @@ span.verseline {
    position:absolute;
     left:550px;
 }
+/* workaround for weird Webkit/Blink bug relating to absolute positioning
+ * which sometimes makes a space disappear */
+span.verseline + span:before {
+	content: " "
+}
 span.linenumnewline {
    position:absolute;
     left:-50px;
 }
+
 span.moveleft {
    position:absolute;
     left:-80px;
