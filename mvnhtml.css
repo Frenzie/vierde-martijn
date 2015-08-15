@@ -150,3 +150,11 @@ body > div+div {
 	border: 1px solid #2A2A2A;
 	box-shadow: 0px 0px 5px #B1B1B1;
 }
+
+:target {
+  animation: highlight 5s ease;      
+}
+@keyframes highlight {
+  0% { background: yellow; }
+  100% { background: transparent; }
+}
