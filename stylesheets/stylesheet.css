@@ -921,6 +921,13 @@ footer .owner p a {
 	line-height: 1.5em;
 }
 
+#weergaves figure, #weergaves figure img {transition:.5s;}
+#weergaves figure {border:5px solid transparent; border-radius:.5em}
+#weergaves figure:hover {border:5px solid #63A52A}
+#weergaves figure h3 {margin-bottom:0}
+#weergaves figure img {margin-top:0}
+#weergaves figure:hover img {border-color:transparent}
+
 .markdown-body img {
   max-width: 100%;
   box-sizing: border-box;
