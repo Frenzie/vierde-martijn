@@ -921,6 +921,10 @@ footer .owner p a {
 	line-height: 1.5em;
 }
 
+#inhoud {float:right; margin:.75em; margin-right:-20px; padding:.5em 1em; background:#f9f9f9; font-size:.8em; border:1px solid #999; border-right:none; border-radius:.5em 0 0 .5em}
+#inhoud h2 {margin-top:0; margin-bottom:0; font-size:1.2em; text-align:center}
+#inhoud ol {margin-bottom:0}
+
 #weergaves figure, #weergaves figure img {transition:.5s;}
 #weergaves figure {border:5px solid transparent; border-radius:.5em}
 #weergaves figure:hover {border:5px solid #63A52A}
