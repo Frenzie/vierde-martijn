@@ -923,7 +923,8 @@ footer .owner p a {
 
 #inhoud {float:right; margin:.75em; margin-right:-20px; padding:.5em 1em; background:#f9f9f9; font-size:.8em; border:1px solid #999; border-right:none; border-radius:.5em 0 0 .5em}
 #inhoud h2 {margin-top:0; margin-bottom:0; font-size:1.2em; text-align:center}
-#inhoud ol {margin-bottom:0}
+#inhoud ol {padding-left:20px}
+#inhoud ol, #inhoud ol li {margin-top:0; margin-bottom:0}
 
 #weergaves figure, #weergaves figure img {transition:.5s;}
 #weergaves figure {border:5px solid transparent; border-radius:.5em}
@@ -936,6 +937,9 @@ footer .owner p a {
   max-width: 100%;
   box-sizing: border-box;
 }
+
+p+p {text-indent:2em}
+.references p, .references p+p {text-indent:-2em; padding-left:2em}
 
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
