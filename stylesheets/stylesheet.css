@@ -898,6 +898,29 @@ footer .owner p a {
   float: left;
 }
 
+.markdown-body figure {
+	position: relative;
+	margin: 1.5em 0;
+	border-top: 1px dotted #557398;
+	border-bottom: 1px dotted #557398;
+}
+.markdown-body figure:first-child {border-top:none}
+
+.markdown-body figure img {
+	margin: 0.75em auto 0 auto;
+	background: #fff;
+	border: 1px solid #999;
+	padding: 5px;
+}
+
+.markdown-body figcaption {
+	clear: left;
+	margin: 0.75em 0;
+	text-align: center;
+	font-style: italic;
+	line-height: 1.5em;
+}
+
 .markdown-body img {
   max-width: 100%;
   box-sizing: border-box;
