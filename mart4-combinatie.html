@@ -8,6 +8,8 @@
 <style>
 html{font-size:13px}
 
+.copyright {display:table; margin:auto}
+
 table {border-spacing: 5px 100px;}
 
 figure {margin:0; position:absolute; left:422px; top:-50px; width:450px;}
@@ -45,9 +47,10 @@ figure {overflow:visible!important;}
 .all .intact figure {display:none}
 </style>
 
-<h2>Vierde Martijn</h2>
-<span></span>
 <div class="button"><button id="switch">Wijzig weergave</button></div>
+<h2>Vierde Martijn</h2>
+<div class="copyright">Alle afbeeldingen zijn afkomstig van de <a href="http://lib.ugent.be/catalog/rug01:000763342">Universiteitsbibliotheek Gent</a> (CC BY-NC-SA 2.0 BE).</div>
+
 
 <table>
 
@@ -1702,14 +1705,14 @@ function marginLeft(){
 		$('.intact').css('display','table-cell');
 		$('.opgelost').css('display','table-cell');
 		$('html').addClass('all');
-		document.body.style.marginLeft = (document.documentElement.clientWidth - 1610)/3 + 'px';
+		document.querySelector('table').style.marginLeft = (document.documentElement.clientWidth - 1610)/3 + 'px';
 	}
 	else if (document.documentElement.clientWidth > 1100) {
-		document.body.style.marginLeft = (document.documentElement.clientWidth - 990)/2 + 'px';
+		document.querySelector('table').style.marginLeft = (document.documentElement.clientWidth - 990)/2 + 'px';
 		$('html').removeClass('all');
 	}
 	else {
-		document.body.style.marginLeft = 'auto';
+		document.querySelector('table').style.marginLeft = 'auto';
 		$('html').removeClass('all');
 	}
 }
