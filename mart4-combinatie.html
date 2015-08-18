@@ -12,8 +12,8 @@ html{font-size:13px}
 
 table {border-spacing: 5px 100px;}
 
-figure {margin:0; position:absolute; left:422px; top:-50px; width:450px;}
-.opgelost figure {left:492px;}
+figure {margin:0; position:absolute; left:412px; top:-50px; width:450px;}
+.opgelost figure {left:482px;}
 figure {z-index:99}
 .panzoom-elements {width:100%;}
 figure.panzoom-elements {position:relative; left:100%;}
@@ -28,7 +28,8 @@ span.fwheader {display:block}
 .intact, .opgelost {background:#fff; border: 1px solid #2A2A2A; box-shadow: 0px 0px 5px #B1B1B1;}
 
 /* iets vaags met relative en absolute positioning (in tables?) */
-.intact, .opgelost {padding:50px 140px 60px 90px;}
+.intact, .opgelost {padding:50px 130px 60px 90px;}
+.opgelost {padding-right:140px}
 p {left:0}
 
 .opgelost {display:none}
@@ -1707,12 +1708,12 @@ function marginLeft(){
 		$('html').addClass('all');
 		document.querySelector('table').style.marginLeft = (document.documentElement.clientWidth - 1610)/3 + 'px';
 	}
-	else if (document.documentElement.clientWidth > 1100) {
+	else if (document.documentElement.clientWidth > 990) {
 		document.querySelector('table').style.marginLeft = (document.documentElement.clientWidth - 990)/2 + 'px';
 		$('html').removeClass('all');
 	}
 	else {
-		document.querySelector('table').style.marginLeft = 'auto';
+		document.querySelector('table').style.marginLeft = '0';
 		$('html').removeClass('all');
 	}
 }
